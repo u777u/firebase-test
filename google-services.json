@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "574256915741",
+    "firebase_url": "https://nyandev-faucet.firebaseio.com",
+    "project_id": "nyandev-faucet",
+    "storage_bucket": "nyandev-faucet.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:574256915741:android:355301f3e86f3887",
+        "android_client_info": {
+          "package_name": "org.nyandevid.firebase"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "574256915741-uu5po02133voi616300q7t294na4mig4.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDlusqV3dIOYIS8KN5I3wGhNWVErg0ailA"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

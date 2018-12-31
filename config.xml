@@ -1,0 +1,33 @@
+<?xml version='1.0' encoding='utf-8'?>
+<widget id="org.nyandevid.firebase" version="0.0.1" xmlns:gap= "http://phonegap.com/ns/1.0">
+  <name>Firebase Test</name>
+  <description>
+      A sample Apache Cordova application that responds to the deviceready event.
+  </description>
+  <author email="dev@cordova.apache.org" href="http://cordova.io">
+      Apache Cordova Team
+  </author>
+  <content src="index.html" />
+
+  <preference name="permissions" value="none"/>
+  <preference name='pgb-builder-version' value='2' />
+  <preference name="phonegap-version"  value="cli-8.0.0" />
+  <preference name="android-build-tool" value="gradle" />
+  
+  <plugin name="cordova-plugin-whitelist" spec="1" />
+  <plugin name="cordova-plugin-firebase" spec="^2.0.0" />
+
+  <access origin="*" />
+  <allow-intent href="http://*/*" />
+  <allow-intent href="https://*/*" />
+  <allow-intent href="tel:*" />
+  <allow-intent href="sms:*" />
+  <allow-intent href="mailto:*" />
+  <allow-intent href="geo:*" />
+
+  <platform name="android">
+
+      <allow-intent href="market:*" />
+      <resource-file src="google-services.json" target="app/www/google-services.json" />
+  </platform>
+</widget>
