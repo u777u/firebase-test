@@ -16,7 +16,6 @@
   
   <plugin name="cordova-plugin-whitelist" source="npm"/>
   <plugin name="cordova-android-firebase-gradle-release" source="npm" />
-  <plugin name="cordova-android-play-services-gradle-release" source="npm" />
   <plugin name="cordova-plugin-firebase" source="npm"/>
 
   <access origin="*" />
