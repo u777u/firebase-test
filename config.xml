@@ -15,7 +15,8 @@
   <preference name="android-build-tool" value="gradle" />
   
   <plugin name="cordova-plugin-whitelist" source="npm"/>
-  <plugin name="cordova-plugin-firebase" spec="https://github.com/briantq/cordova-plugin-firebase.git#android-build" />
+  <plugin name="cordova-android-firebase-gradle-release" source="npm">
+  <plugin name="cordova-plugin-firebase" source="npm"/>
 
   <access origin="*" />
   <allow-intent href="http://*/*" />
